@@ -1,0 +1,318 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLSPHINXOPTS	docs/Makefile	/^ALLSPHINXOPTS   = -d $(BUILDDIR)\/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source$/;"	m
+Activation	auto_ml/utils_models.py	/^Activation = None$/;"	v
+BUILDDIR	docs/Makefile	/^BUILDDIR      = build$/;"	m
+BasicDataCleaning	auto_ml/utils_data_cleaning.py	/^class BasicDataCleaning(BaseEstimator, TransformerMixin):$/;"	c
+CategoricalEnsembler	auto_ml/utils_categorical_ensembling.py	/^class CategoricalEnsembler(object):$/;"	c
+ClassificationScorer	auto_ml/utils_scoring.py	/^class ClassificationScorer(object):$/;"	c
+CustomLabelEncoder	auto_ml/utils.py	/^class CustomLabelEncoder():$/;"	c
+CustomSparseScaler	auto_ml/utils_scaling.py	/^class CustomSparseScaler(BaseEstimator, TransformerMixin):$/;"	c
+DataFrameVectorizer	auto_ml/DataFrameVectorizer.py	/^class DataFrameVectorizer(BaseEstimator, TransformerMixin):$/;"	c
+Dense	auto_ml/utils_models.py	/^Dense = None$/;"	v
+Dropout	auto_ml/utils_models.py	/^Dropout = None$/;"	v
+ELU	auto_ml/utils_models.py	/^ELU = None$/;"	v
+Ensembler	auto_ml/utils_ensembling.py	/^class Ensembler(BaseEstimator, TransformerMixin):$/;"	c
+ExtendedLabelEncoder	auto_ml/utils.py	/^class ExtendedLabelEncoder(LabelEncoder):$/;"	c
+ExtendedPipeline	auto_ml/utils.py	/^class ExtendedPipeline(Pipeline):$/;"	c
+FeatureSelectionTransformer	auto_ml/utils_feature_selection.py	/^class FeatureSelectionTransformer(BaseEstimator, TransformerMixin):$/;"	c
+FinalModelATC	auto_ml/utils_model_training.py	/^class FinalModelATC(BaseEstimator, TransformerMixin):$/;"	c
+I18NSPHINXOPTS	docs/Makefile	/^I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) source$/;"	m
+KerasClassifier	auto_ml/utils_models.py	/^KerasClassifier = None$/;"	v
+KerasRegressor	auto_ml/utils_models.py	/^KerasRegressor = None$/;"	v
+LeakyReLU	auto_ml/utils_models.py	/^LeakyReLU = None$/;"	v
+PAPER	docs/Makefile	/^PAPER         =$/;"	m
+PAPEROPT_a4	docs/Makefile	/^PAPEROPT_a4     = -D latex_paper_size=a4$/;"	m
+PAPEROPT_letter	docs/Makefile	/^PAPEROPT_letter = -D latex_paper_size=letter$/;"	m
+PReLU	auto_ml/utils_models.py	/^PReLU = None$/;"	v
+Predictor	auto_ml/predictor.py	/^class Predictor(object):$/;"	c
+RegressionScorer	auto_ml/utils_scoring.py	/^class RegressionScorer(object):$/;"	c
+SPHINXBUILD	docs/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m
+SPHINXOPTS	docs/Makefile	/^SPHINXOPTS    =$/;"	m
+Sequential	auto_ml/utils_models.py	/^Sequential = None$/;"	v
+ThresholdedReLU	auto_ml/utils_models.py	/^ThresholdedReLU = None$/;"	v
+__init__	auto_ml/DataFrameVectorizer.py	/^    def __init__(self, column_descriptions=None, dtype=np.float32, separator="=", sparse=True, sort=True, keep_cat_features=False):$/;"	m	class:DataFrameVectorizer
+__init__	auto_ml/predictor.py	/^    def __init__(self, type_of_estimator, column_descriptions, verbose=True, name=None):$/;"	m	class:Predictor
+__init__	auto_ml/utils.py	/^    def __init__(self):$/;"	m	class:CustomLabelEncoder
+__init__	auto_ml/utils.py	/^    def __init__(self):$/;"	m	class:ExtendedLabelEncoder
+__init__	auto_ml/utils.py	/^    def __init__(self, steps, keep_cat_features=False):$/;"	m	class:ExtendedPipeline
+__init__	auto_ml/utils_categorical_ensembling.py	/^    def __init__(self, trained_models, transformation_pipeline, categorical_column, default_category):$/;"	m	class:CategoricalEnsembler
+__init__	auto_ml/utils_data_cleaning.py	/^    def __init__(self, column_descriptions=None):$/;"	m	class:BasicDataCleaning
+__init__	auto_ml/utils_ensembling.py	/^    def __init__(self, ensemble_predictors, type_of_estimator, ensemble_method='average', num_classes=None):$/;"	m	class:Ensembler
+__init__	auto_ml/utils_feature_selection.py	/^    def __init__(self, type_of_estimator, column_descriptions, feature_selection_model='SelectFromModel'):$/;"	m	class:FeatureSelectionTransformer
+__init__	auto_ml/utils_model_training.py	/^    def __init__(self, model, model_name=None, ml_for_analytics=False, type_of_estimator='classifier', output_column=None, name=None, _scorer=None, training_features=None, column_descriptions=None, feature_learning=False, uncertainty_model=None, uc_results = None, training_prediction_intervals=False, min_step_improvement=0.0001, interval_predictors=None, keep_cat_features=False, is_hp_search=None, X_test=None, y_test=None):$/;"	m	class:FinalModelATC
+__init__	auto_ml/utils_scaling.py	/^    def __init__(self, column_descriptions, truncate_large_values=False, perform_feature_scaling=True, min_percentile=0.05, max_percentile=0.95):$/;"	m	class:CustomSparseScaler
+__init__	auto_ml/utils_scoring.py	/^    def __init__(self, scoring_method=None):$/;"	m	class:ClassificationScorer
+__init__	auto_ml/utils_scoring.py	/^    def __init__(self, scoring_method=None):$/;"	m	class:RegressionScorer
+__version__	auto_ml/_version.py	/^__version__ = "2.8.0"$/;"	v
+_calibrate_final_model	auto_ml/predictor.py	/^    def _calibrate_final_model(self, trained_model, X_test, y_test):$/;"	m	class:Predictor
+_clean_data_and_prepare_for_training	auto_ml/predictor.py	/^    def _clean_data_and_prepare_for_training(self, data, scoring):$/;"	m	class:Predictor
+_consolidate_pipeline	auto_ml/predictor.py	/^    def _consolidate_pipeline(self, transformation_pipeline, final_model=None):$/;"	m	class:Predictor
+_construct_pipeline	auto_ml/predictor.py	/^    def _construct_pipeline(self, model_name='LogisticRegression', trained_pipeline=None, final_model=None, feature_learning=False, final_model_step_name='final_model', prediction_interval=False, keep_cat_features=False, is_hp_search=False):$/;"	m	class:Predictor
+_create_uncertainty_model	auto_ml/predictor.py	/^    def _create_uncertainty_model(self, uncertainty_data, scoring, y, uncertainty_calibration_data):$/;"	m	class:Predictor
+_get_estimator_names	auto_ml/predictor.py	/^    def _get_estimator_names(self):$/;"	m	class:Predictor
+_get_trained_feature_names	auto_ml/predictor.py	/^    def _get_trained_feature_names(self):$/;"	m	class:Predictor
+_join_and_print_analytics_results	auto_ml/predictor.py	/^    def _join_and_print_analytics_results(self, df_feature_responses, df_features, sort_field):$/;"	m	class:Predictor
+_prepare_for_training	auto_ml/predictor.py	/^    def _prepare_for_training(self, X):$/;"	m	class:Predictor
+_prepare_for_verify_features	auto_ml/predictor.py	/^    def _prepare_for_verify_features(self):$/;"	m	class:Predictor
+_print_ml_analytics_results_linear_model	auto_ml/predictor.py	/^    def _print_ml_analytics_results_linear_model(self, trained_model_for_analytics):$/;"	m	class:Predictor
+_print_ml_analytics_results_random_forest	auto_ml/predictor.py	/^    def _print_ml_analytics_results_random_forest(self, trained_model_for_analytics):$/;"	m	class:Predictor
+_train_ensemble	auto_ml/predictor.py	/^    def _train_ensemble(self, X_train, y_train):$/;"	m	class:Predictor
+_transform	auto_ml/DataFrameVectorizer.py	/^    def _transform(self, X):$/;"	m	class:DataFrameVectorizer
+_validate_input_col_descriptions	auto_ml/predictor.py	/^    def _validate_input_col_descriptions(self):$/;"	m	class:Predictor
+add_date_features_df	auto_ml/utils_data_cleaning.py	/^def add_date_features_df(df, date_col):$/;"	f
+add_date_features_dict	auto_ml/utils_data_cleaning.py	/^def add_date_features_dict(row, date_col):$/;"	f
+advanced_scoring_classifiers	auto_ml/utils_scoring.py	/^def advanced_scoring_classifiers(probas, actuals, name=None):$/;"	f
+advanced_scoring_regressors	auto_ml/utils_scoring.py	/^def advanced_scoring_regressors(predictions, actuals, verbose=2, name=None):$/;"	f
+age_bucketing	tests/api_coverage_tests_classifiers.py	/^    def age_bucketing(data):$/;"	f	function:test_user_input_func_classification
+always_return_ten_thousand	tests/scoring_tests.py	/^def always_return_ten_thousand(estimator=None, actuals=None, probas=None):$/;"	f
+author	docs/source/conf.py	/^author = u'Preston Parry'$/;"	v
+author	setup.py	/^    author='Preston Parry',$/;"	v
+author_email	setup.py	/^    author_email='ClimbsBytes@gmail.com',$/;"	v
+bad_vals	auto_ml/DataFrameVectorizer.py	/^bad_vals = set([float('nan'), float('inf'), float('-inf'), None, np.nan, 'None', 'none', 'NaN', 'NAN', 'nan', 'NULL', 'null', '', 'inf', '-inf'])$/;"	v
+bad_vals_as_strings	auto_ml/utils.py	/^bad_vals_as_strings = set([str(float('nan')), str(float('inf')), str(float('-inf')), 'None', 'none', 'NaN', 'NAN', 'nan', 'NULL', 'null', '', 'inf', '-inf'])$/;"	v
+bad_vals_as_strings	auto_ml/utils_data_cleaning.py	/^bad_vals_as_strings = set([str(float('nan')), str(float('inf')), str(float('-inf')), 'None', 'none', 'NaN', 'nan', 'NULL', 'null', '', 'inf', '-inf'])$/;"	v
+bad_vals_as_strings	auto_ml/utils_scoring.py	/^bad_vals_as_strings = set([str(float('nan')), str(float('inf')), str(float('-inf')), 'None', 'none', 'NaN', 'NAN', 'nan', 'NULL', 'null', '', 'inf', '-inf', 'np.nan', 'numpy.nan'])$/;"	v
+booleans	auto_ml/utils_scaling.py	/^booleans = set([True, False, 'true', 'false', 'True', 'False', 'TRUE', 'FALSE'])$/;"	v
+calculate_and_print_differences	auto_ml/utils_scoring.py	/^def calculate_and_print_differences(predictions, actuals, name=None):$/;"	f
+calculate_brier_score_loss	tests/utils_testing.py	/^def calculate_brier_score_loss(actuals, probas):$/;"	f
+calculate_rmse	tests/utils_testing.py	/^def calculate_rmse(actuals, preds):$/;"	f
+calculate_scaling_ranges	auto_ml/utils_scaling.py	/^def calculate_scaling_ranges(X, col, min_percentile=0.05, max_percentile=0.95):$/;"	f
+catboost_installed	auto_ml/utils_models.py	/^    catboost_installed = True$/;"	v
+catboost_installed	auto_ml/utils_models.py	/^catboost_installed = False$/;"	v
+categorical_ensembling_classification	tests/classifiers.py	/^def categorical_ensembling_classification(model_name=None):$/;"	f
+classifiers	setup.py	/^    classifiers=[$/;"	v
+clean_categorical_definitions	auto_ml/utils_categorical_ensembling.py	/^def clean_categorical_definitions(df, categorical_column):$/;"	f
+clean_params	auto_ml/utils.py	/^def clean_params(params):$/;"	f
+clean_probas	auto_ml/utils_scoring.py	/^    def clean_probas(self, probas):$/;"	m	class:ClassificationScorer
+clean_val	auto_ml/utils_data_cleaning.py	/^def clean_val(val):$/;"	f
+clean_val_nan_version	auto_ml/utils_data_cleaning.py	/^def clean_val_nan_version(key, val):$/;"	f
+column_descriptions	test1.py	/^column_descriptions = {$/;"	v
+copyright	docs/source/conf.py	/^copyright = u'2016, Preston Parry'$/;"	v
+create_feature_responses	auto_ml/predictor.py	/^    def create_feature_responses(self, model, X_transformed, y, top_features=None):$/;"	m	class:Predictor
+create_gs_params	auto_ml/predictor.py	/^    def create_gs_params(self, model_name):$/;"	m	class:Predictor
+define_buckets	tests/api_coverage_tests_classifiers.py	/^        def define_buckets(age):$/;"	f	function:test_user_input_func_classification.age_bucketing
+define_uncertain_predictions	auto_ml/predictor.py	/^    def define_uncertain_predictions(self, base_predictions, y):$/;"	m	class:Predictor
+delete_rows_csr	auto_ml/utils.py	/^def delete_rows_csr(mat, indices):$/;"	f
+description	setup.py	/^    description='Automated machine learning for production and analytics',$/;"	v
+drop_duplicate_columns	auto_ml/utils.py	/^def drop_duplicate_columns(df):$/;"	f
+drop_missing_y_vals	auto_ml/utils.py	/^def drop_missing_y_vals(df, y, output_column=None):$/;"	f
+ensemble_classifier_basic_test	tests/ensemble_tests.py	/^def ensemble_classifier_basic_test(model_name=None):$/;"	f
+ensemble_regressor_basic_test	tests/ensemble_tests.py	/^def ensemble_regressor_basic_test():$/;"	f
+exclude_patterns	docs/source/conf.py	/^exclude_patterns = []$/;"	v
+extensions	docs/source/conf.py	/^extensions = []$/;"	v
+feature_learning_categorical_ensembling_getting_single_predictions_classification	tests/classifiers.py	/^def feature_learning_categorical_ensembling_getting_single_predictions_classification(model_name=None):$/;"	f
+feature_learning_getting_single_predictions_classification	tests/classifiers.py	/^def feature_learning_getting_single_predictions_classification(model_name=None):$/;"	f
+fit	auto_ml/DataFrameVectorizer.py	/^    def fit(self, X, y=None):$/;"	m	class:DataFrameVectorizer
+fit	auto_ml/utils.py	/^    def fit(self, list_of_labels):$/;"	m	class:CustomLabelEncoder
+fit	auto_ml/utils_data_cleaning.py	/^    def fit(self, X_df, y=None):$/;"	m	class:BasicDataCleaning
+fit	auto_ml/utils_ensembling.py	/^    def fit(self, X, y):$/;"	m	class:Ensembler
+fit	auto_ml/utils_feature_selection.py	/^    def fit(self, X, y=None):$/;"	m	class:FeatureSelectionTransformer
+fit	auto_ml/utils_model_training.py	/^    def fit(self, X, y):$/;"	m	class:FinalModelATC
+fit	auto_ml/utils_scaling.py	/^    def fit(self, X, y=None):$/;"	m	class:CustomSparseScaler
+fit_feature_learning_and_transformation_pipeline	auto_ml/predictor.py	/^    def fit_feature_learning_and_transformation_pipeline(self, X_df, fl_data, y):$/;"	m	class:Predictor
+fit_grid_search	auto_ml/predictor.py	/^    def fit_grid_search(self, X_df, y, gs_params, feature_learning=False, refit=False):$/;"	m	class:Predictor
+fit_single_pipeline	auto_ml/predictor.py	/^    def fit_single_pipeline(self, X_df, y, model_name, feature_learning=False, prediction_interval=False):$/;"	m	class:Predictor
+fit_transformation_pipeline	auto_ml/predictor.py	/^    def fit_transformation_pipeline(self, X_df, y, model_names):$/;"	m	class:Predictor
+get	auto_ml/DataFrameVectorizer.py	/^    def get(self, prop_name, default=None):$/;"	m	class:DataFrameVectorizer
+get	auto_ml/utils_categorical_ensembling.py	/^    def get(self, prop_name, default=None):$/;"	m	class:CategoricalEnsembler
+get	auto_ml/utils_data_cleaning.py	/^    def get(self, prop_name, default=None):$/;"	m	class:BasicDataCleaning
+get	auto_ml/utils_feature_selection.py	/^    def get(self, prop_name, default=None):$/;"	m	class:FeatureSelectionTransformer
+get	auto_ml/utils_model_training.py	/^    def get(self, prop_name, default=None):$/;"	m	class:FinalModelATC
+get	auto_ml/utils_scaling.py	/^    def get(self, prop_name, default=None):$/;"	m	class:CustomSparseScaler
+get	auto_ml/utils_scoring.py	/^    def get(self, prop_name, default=None):$/;"	m	class:ClassificationScorer
+get	auto_ml/utils_scoring.py	/^    def get(self, prop_name, default=None):$/;"	m	class:RegressionScorer
+get_X_test	auto_ml/utils_model_training.py	/^    def get_X_test(self, X_fit, y):$/;"	m	class:FinalModelATC
+get_activation_layer	auto_ml/utils_models.py	/^def get_activation_layer(activation):$/;"	f
+get_all_predictions	auto_ml/utils_ensembling.py	/^    def get_all_predictions(self, X):$/;"	m	class:Ensembler
+get_boston_dataset	auto_ml/utils.py	/^def get_boston_dataset():$/;"	f
+get_boston_regression_dataset	tests/utils_testing.py	/^def get_boston_regression_dataset():$/;"	f
+get_categorical_feature_indices	auto_ml/utils_model_training.py	/^    def get_categorical_feature_indices(self):$/;"	m	class:FinalModelATC
+get_feature_names	auto_ml/DataFrameVectorizer.py	/^    def get_feature_names(self):$/;"	m	class:DataFrameVectorizer
+get_feature_selection_model_from_name	auto_ml/utils_feature_selection.py	/^def get_feature_selection_model_from_name(type_of_estimator, model_name):$/;"	f
+get_model_from_name	auto_ml/utils_models.py	/^def get_model_from_name(model_name, training_params=None, is_hp_search=False):$/;"	f
+get_name_from_model	auto_ml/utils_models.py	/^def get_name_from_model(model):$/;"	f
+get_optimizer	auto_ml/utils_models.py	/^def get_optimizer(name='Adadelta'):$/;"	f
+get_predictions_by_class	auto_ml/utils_ensembling.py	/^    def get_predictions_by_class(self, predictions):$/;"	m	class:Ensembler
+get_predictions_for_one_estimator	auto_ml/utils_ensembling.py	/^        def get_predictions_for_one_estimator(estimator, X):$/;"	f	function:Ensembler.get_all_predictions
+get_relevant_categorical_rows	auto_ml/predictor.py	/^    def get_relevant_categorical_rows(self, X_df, y, category):$/;"	m	class:Predictor
+get_search_params	auto_ml/utils_models.py	/^def get_search_params(model_name):$/;"	f
+get_titanic_binary_classification_dataset	tests/utils_testing.py	/^def get_titanic_binary_classification_dataset(basic=True):$/;"	f
+get_twitter_sentiment_multilabel_classification_dataset	tests/utils_testing.py	/^def get_twitter_sentiment_multilabel_classification_dataset():$/;"	f
+getting_single_predictions_classification	tests/classifiers.py	/^def getting_single_predictions_classification(model_name=None):$/;"	f
+getting_single_predictions_classifier_test	tests/ensemble_tests.py	/^def getting_single_predictions_classifier_test():$/;"	f
+getting_single_predictions_multilabel_classification	tests/classifiers.py	/^def getting_single_predictions_multilabel_classification(model_name=None):$/;"	f
+getting_single_predictions_regression	tests/regressors.py	/^def getting_single_predictions_regression(model_name=None):$/;"	f
+getting_single_predictions_regressor_test	tests/ensemble_tests.py	/^def getting_single_predictions_regressor_test():$/;"	f
+here	setup.py	/^here = path.abspath(path.dirname(__file__))$/;"	v
+html_theme	docs/source/conf.py	/^    html_theme = 'sphinx_rtd_theme'$/;"	v
+html_theme_path	docs/source/conf.py	/^    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]$/;"	v
+htmlhelp_basename	docs/source/conf.py	/^htmlhelp_basename = 'auto_mldoc'$/;"	v
+insert_deep_learning_model	auto_ml/utils_models.py	/^def insert_deep_learning_model(pipeline_step, file_name):$/;"	f
+install_requires	setup.py	/^    install_requires=[$/;"	v
+keras_imported	auto_ml/utils_model_training.py	/^keras_imported = False$/;"	v
+keras_imported	auto_ml/utils_models.py	/^keras_imported = False$/;"	v
+keras_load_model	auto_ml/utils_models.py	/^keras_load_model = None$/;"	v
+keywords	setup.py	/^    keywords=['machine learning', 'data science', 'automated machine learning', 'regressor', 'regressors', 'regression', 'classification', 'classifiers', 'classifier', 'estimators', 'predictors', 'XGBoost', 'Random Forest', 'sklearn', 'scikit-learn', 'analytics', 'analysts', 'coefficients', 'feature importances' 'analytics', 'artificial intelligence', 'subpredictors', 'ensembling', 'stacking', 'blending', 'feature engineering', 'feature extraction', 'feature selection', 'production', 'pandas', 'dataframes', 'machinejs', 'deep learning', 'tensorflow', 'deeplearning', 'lightgbm', 'gradient boosting', 'gbm', 'keras', 'production ready', 'test coverage'],$/;"	v
+language	docs/source/conf.py	/^language = None$/;"	v
+latex_documents	docs/source/conf.py	/^latex_documents = [$/;"	v
+latex_elements	docs/source/conf.py	/^latex_elements = {$/;"	v
+lgb_installed	auto_ml/utils_models.py	/^    lgb_installed = True$/;"	v
+lgb_installed	auto_ml/utils_models.py	/^lgb_installed = False$/;"	v
+license	setup.py	/^    license='MIT',$/;"	v
+load_keras_model	auto_ml/utils_models.py	/^def load_keras_model(file_name):$/;"	f
+load_ml_model	auto_ml/utils_models.py	/^def load_ml_model(file_name):$/;"	f
+long_description	setup.py	/^        long_description = f.read()$/;"	v
+long_description	setup.py	/^    long_description = pypandoc.convert(''.join(readme_text), 'rst', format='md')$/;"	v
+long_description	setup.py	/^    long_description=long_description,$/;"	v
+make_deep_learning_classifier	auto_ml/utils_models.py	/^def make_deep_learning_classifier(hidden_layers=None, num_cols=None, optimizer='Adadelta', dropout_rate=0.2, weight_constraint=0, final_activation='sigmoid', feature_learning=False, activation='elu', kernel_initializer='normal'):$/;"	f
+make_deep_learning_model	auto_ml/utils_models.py	/^def make_deep_learning_model(hidden_layers=None, num_cols=None, optimizer='Adadelta', dropout_rate=0.2, weight_constraint=0, feature_learning=False, kernel_initializer='normal', activation='elu'):$/;"	f
+man_pages	docs/source/conf.py	/^man_pages = [$/;"	v
+master_doc	docs/source/conf.py	/^master_doc = 'index'$/;"	v
+maxnorm	auto_ml/utils_models.py	/^maxnorm = None$/;"	v
+minutes_into_day_parts	auto_ml/utils_data_cleaning.py	/^def minutes_into_day_parts(minutes_into_day):$/;"	f
+ml_predictor	test1.py	/^ml_predictor = Predictor(type_of_estimator='classifier', column_descriptions=column_descriptions)$/;"	v
+name	setup.py	/^    name='auto_ml',$/;"	v
+on_rtd	docs/source/conf.py	/^on_rtd = os.environ.get('READTHEDOCS', None) == 'True'$/;"	v
+optimize_final_model_classification	tests/classifiers.py	/^def optimize_final_model_classification(model_name=None):$/;"	f
+optimize_final_model_regression	tests/regressors.py	/^def optimize_final_model_regression(model_name=None):$/;"	f
+optimizers	auto_ml/utils_models.py	/^optimizers = None$/;"	v
+packages	setup.py	/^    packages=['auto_ml'],$/;"	v
+predict	auto_ml/predictor.py	/^    def predict(self, prediction_data):$/;"	m	class:Predictor
+predict	auto_ml/utils_categorical_ensembling.py	/^    def predict(self, data):$/;"	m	class:CategoricalEnsembler
+predict	auto_ml/utils_ensembling.py	/^    def predict(self, X):$/;"	m	class:Ensembler
+predict	auto_ml/utils_model_training.py	/^    def predict(self, X, verbose=False):$/;"	m	class:FinalModelATC
+predict_intervals	auto_ml/predictor.py	/^    def predict_intervals(self, prediction_data, return_type=None):$/;"	m	class:Predictor
+predict_intervals	auto_ml/utils.py	/^    def predict_intervals(self, X, return_type=None):$/;"	m	class:ExtendedPipeline
+predict_intervals	auto_ml/utils_model_training.py	/^    def predict_intervals(self, X, return_type=None):$/;"	m	class:FinalModelATC
+predict_proba	auto_ml/predictor.py	/^    def predict_proba(self, prediction_data):$/;"	m	class:Predictor
+predict_proba	auto_ml/utils_categorical_ensembling.py	/^    def predict_proba(self, data):$/;"	m	class:CategoricalEnsembler
+predict_proba	auto_ml/utils_ensembling.py	/^    def predict_proba(self, X):$/;"	m	class:Ensembler
+predict_proba	auto_ml/utils_model_training.py	/^    def predict_proba(self, X, verbose=False):$/;"	m	class:FinalModelATC
+predict_uncertainty	auto_ml/predictor.py	/^    def predict_uncertainty(self, prediction_data):$/;"	m	class:Predictor
+predict_uncertainty	auto_ml/utils.py	/^    def predict_uncertainty(self, X):$/;"	m	class:ExtendedPipeline
+predict_uncertainty	auto_ml/utils_model_training.py	/^    def predict_uncertainty(self, X):$/;"	m	class:FinalModelATC
+print_results	auto_ml/predictor.py	/^    def print_results(self, model_name, model, X, y):$/;"	m	class:Predictor
+print_training_summary	auto_ml/predictor.py	/^    def print_training_summary(self, gs):$/;"	m	class:Predictor
+project	docs/source/conf.py	/^project = u'auto_ml'$/;"	v
+pygments_style	docs/source/conf.py	/^pygments_style = 'sphinx'$/;"	v
+readme_text	setup.py	/^        readme_text = read_file.readlines()$/;"	v
+readme_text	setup.py	/^    readme_text = [row.decode() for row in readme_text]$/;"	v
+regularizers	auto_ml/utils_models.py	/^regularizers = None$/;"	v
+release	docs/source/conf.py	/^release = u'0.1.0'$/;"	v
+remove_categorical_values	auto_ml/utils_model_training.py	/^    def remove_categorical_values(self, features):$/;"	m	class:FinalModelATC
+restrict	auto_ml/DataFrameVectorizer.py	/^    def restrict(self, support, indices=False):$/;"	m	class:DataFrameVectorizer
+rmse_func	auto_ml/utils_scoring.py	/^def rmse_func(y, predictions):$/;"	f
+safely_drop_columns	auto_ml/utils.py	/^def safely_drop_columns(df, cols_to_drop):$/;"	f
+save	auto_ml/predictor.py	/^    def save(self, file_name='auto_ml_saved_pipeline.dill', verbose=True):$/;"	m	class:Predictor
+save_one_step	auto_ml/predictor.py	/^        def save_one_step(pipeline_step, used_deep_learning):$/;"	f	function:Predictor.save
+scale_val	auto_ml/utils_scaling.py	/^def scale_val(val, min_val, total_range, truncate_large_values=False):$/;"	f
+score	auto_ml/predictor.py	/^    def score(self, X_test, y_test, advanced_scoring=True, verbose=2):$/;"	m	class:Predictor
+score	auto_ml/utils_model_training.py	/^    def score(self, X, y, verbose=False):$/;"	m	class:FinalModelATC
+score	auto_ml/utils_scoring.py	/^    def score(self, estimator, X, y, advanced_scoring=False):$/;"	m	class:ClassificationScorer
+score	auto_ml/utils_scoring.py	/^    def score(self, estimator, X, y, took_log_of_y=False, advanced_scoring=False, verbose=2, name=None):$/;"	m	class:RegressionScorer
+score_uncertainty	auto_ml/predictor.py	/^    def score_uncertainty(self, X, y, advanced_scoring=True, verbose=2):$/;"	m	class:Predictor
+score_uncertainty	auto_ml/utils.py	/^    def score_uncertainty(self, X):$/;"	m	class:ExtendedPipeline
+score_uncertainty	auto_ml/utils_model_training.py	/^    def score_uncertainty(self, X, y, verbose=False):$/;"	m	class:FinalModelATC
+scoring_name_function_map	auto_ml/utils_scoring.py	/^scoring_name_function_map = {$/;"	v
+set_params_and_defaults	auto_ml/predictor.py	/^    def set_params_and_defaults(self, X_df, user_input_func=None, optimize_final_model=None, write_gs_param_results_to_file=True, perform_feature_selection=None, verbose=True, X_test=None, y_test=None, ml_for_analytics=True, take_log_of_y=None, model_names=None, perform_feature_scaling=True, calibrate_final_model=False, _scorer=None, scoring=None, verify_features=False, training_params=None, grid_search_params=None, compare_all_models=False, cv=2, feature_learning=False, fl_data=None, optimize_feature_learning=False, train_uncertainty_model=None, uncertainty_data=None, uncertainty_delta=None, uncertainty_delta_units=None, calibrate_uncertainty=False, uncertainty_calibration_settings=None, uncertainty_calibration_data=None, uncertainty_delta_direction='both', advanced_analytics=True, analytics_config=None, prediction_intervals=None, predict_intervals=None, ensemble_config=None, trained_transformation_pipeline=None, transformed_X=None, transformed_y=None, return_transformation_pipeline=False, X_test_already_transformed=False):$/;"	m	class:Predictor
+set_scoring	auto_ml/predictor.py	/^    def set_scoring(self, y, scoring=None):$/;"	m	class:Predictor
+source_suffix	docs/source/conf.py	/^source_suffix = '.rst'$/;"	v
+strip_non_ascii	auto_ml/DataFrameVectorizer.py	/^def strip_non_ascii(string):$/;"	f
+templates_path	docs/source/conf.py	/^templates_path = ['_templates']$/;"	v
+test_all_algos_classification	tests/advanced_install_tests.py	/^def test_all_algos_classification(model_name=None):$/;"	f
+test_all_algos_regression	tests/advanced_install_tests.py	/^def test_all_algos_regression():$/;"	f
+test_already_transformed_X	tests/trained_transformation_pipeline_tests.py	/^def test_already_transformed_X():$/;"	f
+test_bad_val_for_type_of_estimator	tests/user_logging_tests.py	/^def test_bad_val_for_type_of_estimator():$/;"	f
+test_bad_val_in_column_descriptions	tests/user_logging_tests.py	/^def test_bad_val_in_column_descriptions():$/;"	f
+test_binary_classification	tests/scoring_tests.py	/^def test_binary_classification():$/;"	f
+test_binary_classification_predict_on_Predictor_instance	tests/api_coverage_tests_classifiers.py	/^def test_binary_classification_predict_on_Predictor_instance():$/;"	f
+test_binary_classification_predict_proba_on_Predictor_instance	tests/api_coverage_tests_classifiers.py	/^def test_binary_classification_predict_proba_on_Predictor_instance():$/;"	f
+test_calibrate_final_model_classification	tests/calibrate_classifier_tests.py	/^def test_calibrate_final_model_classification():$/;"	f
+test_calibrate_final_model_missing_X_test_y_test_classification	tests/calibrate_classifier_tests.py	/^def test_calibrate_final_model_missing_X_test_y_test_classification():$/;"	f
+test_calibrate_uncertainty	tests/uncertainty_tests.py	/^def test_calibrate_uncertainty():$/;"	f
+test_categorical_ensemble_basic_classifier	tests/categorical_ensembling_test.py	/^def test_categorical_ensemble_basic_classifier():$/;"	f
+test_categorical_ensembling_regression	tests/categorical_ensembling_test.py	/^def test_categorical_ensembling_regression(model_name=None):$/;"	f
+test_compare_all_models_classification	tests/api_coverage_tests_classifiers.py	/^    def test_compare_all_models_classification():$/;"	f
+test_compare_all_models_regression	tests/api_coverage_tests_regressors.py	/^def test_compare_all_models_regression():$/;"	f
+test_feature_learning_categorical_ensembling_getting_single_predictions_classification	tests/advanced_install_tests.py	/^def test_feature_learning_categorical_ensembling_getting_single_predictions_classification(model_name=None):$/;"	f
+test_feature_learning_categorical_ensembling_getting_single_predictions_regression	tests/advanced_install_tests.py	/^def test_feature_learning_categorical_ensembling_getting_single_predictions_regression(model_name=None):$/;"	f
+test_feature_learning_getting_single_predictions_classification	tests/advanced_install_tests.py	/^def test_feature_learning_getting_single_predictions_classification(model_name=None):$/;"	f
+test_feature_learning_getting_single_predictions_regression	tests/advanced_install_tests.py	/^def test_feature_learning_getting_single_predictions_regression(model_name=None):$/;"	f
+test_generator	tests/automated_tests.py	/^def test_generator():$/;"	f
+test_generator	tests/automated_tests_regressors.py	/^def test_generator():$/;"	f
+test_getting_single_predictions_nlp_date_multilabel_classification	tests/api_coverage_tests_classifiers.py	/^    def test_getting_single_predictions_nlp_date_multilabel_classification():$/;"	f
+test_ignores_new_invalid_features	tests/basic_tests.py	/^def test_ignores_new_invalid_features():$/;"	f
+test_include_bad_y_vals_predict_classification	tests/api_coverage_tests_classifiers.py	/^def test_include_bad_y_vals_predict_classification():$/;"	f
+test_include_bad_y_vals_train_classification	tests/api_coverage_tests_classifiers.py	/^def test_include_bad_y_vals_train_classification():$/;"	f
+test_input_df_unmodified	tests/basic_tests.py	/^def test_input_df_unmodified():$/;"	f
+test_linear_model_analytics_classification	tests/basic_tests.py	/^def test_linear_model_analytics_classification(model_name=None):$/;"	f
+test_list_of_single_model_name_classification	tests/api_coverage_tests_classifiers.py	/^def test_list_of_single_model_name_classification():$/;"	f
+test_missing_output_col_in_column_descriptions	tests/user_logging_tests.py	/^def test_missing_output_col_in_column_descriptions():$/;"	f
+test_model_uses_user_provided_training_params	tests/basic_tests.py	/^def test_model_uses_user_provided_training_params(model_name=None):$/;"	f
+test_multilabel_classification_predict_on_Predictor_instance	tests/api_coverage_tests_classifiers.py	/^def test_multilabel_classification_predict_on_Predictor_instance():$/;"	f
+test_names	tests/automated_tests.py	/^test_names = OrderedDict([$/;"	v
+test_names	tests/automated_tests_regressors.py	/^test_names = OrderedDict([$/;"	v
+test_nans_in_output_column	tests/user_logging_tests.py	/^def test_nans_in_output_column():$/;"	f
+test_pass_in_list_of_dictionaries_predict_classification	tests/api_coverage_tests_classifiers.py	/^def test_pass_in_list_of_dictionaries_predict_classification():$/;"	f
+test_pass_in_list_of_dictionaries_train_classification	tests/api_coverage_tests_classifiers.py	/^def test_pass_in_list_of_dictionaries_train_classification():$/;"	f
+test_perform_feature_scaling_false_classification	tests/api_coverage_tests_classifiers.py	/^def test_perform_feature_scaling_false_classification():$/;"	f
+test_perform_feature_scaling_false_regression	tests/api_coverage_tests_regressors.py	/^def test_perform_feature_scaling_false_regression(model_name=None):$/;"	f
+test_perform_feature_scaling_true_classification	tests/api_coverage_tests_classifiers.py	/^def test_perform_feature_scaling_true_classification():$/;"	f
+test_perform_feature_scaling_true_regression	tests/api_coverage_tests_regressors.py	/^def test_perform_feature_scaling_true_regression(model_name=None):$/;"	f
+test_perform_feature_selection_false_classification	tests/api_coverage_tests_classifiers.py	/^def test_perform_feature_selection_false_classification():$/;"	f
+test_perform_feature_selection_false_regression	tests/api_coverage_tests_regressors.py	/^def test_perform_feature_selection_false_regression(model_name=None):$/;"	f
+test_perform_feature_selection_true_classification	tests/api_coverage_tests_classifiers.py	/^def test_perform_feature_selection_true_classification():$/;"	f
+test_perform_feature_selection_true_regression	tests/api_coverage_tests_regressors.py	/^def test_perform_feature_selection_true_regression(model_name=None):$/;"	f
+test_predict_intervals_should_fail_if_not_trained	tests/test_prediction_intervals.py	/^def test_predict_intervals_should_fail_if_not_trained():$/;"	f
+test_predict_intervals_takes_in_custom_intervals	tests/test_prediction_intervals.py	/^def test_predict_intervals_takes_in_custom_intervals():$/;"	f
+test_predict_uncertainty_returns_dict_for_one_value	tests/uncertainty_tests.py	/^def test_predict_uncertainty_returns_dict_for_one_value():$/;"	f
+test_predict_uncertainty_returns_pandas_DataFrame_for_more_than_one_value	tests/uncertainty_tests.py	/^def test_predict_uncertainty_returns_pandas_DataFrame_for_more_than_one_value():$/;"	f
+test_predict_uncertainty_true	tests/test_prediction_intervals.py	/^def test_predict_uncertainty_true():$/;"	f
+test_prediction_intervals_actually_work	tests/test_prediction_intervals.py	/^def test_prediction_intervals_actually_work():$/;"	f
+test_prediction_intervals_lets_the_user_specify_number_of_intervals	tests/test_prediction_intervals.py	/^def test_prediction_intervals_lets_the_user_specify_number_of_intervals():$/;"	f
+test_score_uncertainty	tests/uncertainty_tests.py	/^def test_score_uncertainty():$/;"	f
+test_suite	setup.py	/^    test_suite='nose.collector',$/;"	v
+test_throws_warning_when_fl_data_equals_df_train	tests/advanced_install_tests.py	/^def test_throws_warning_when_fl_data_equals_df_train():$/;"	f
+test_unexpected_datetime_column_handled_without_errors	tests/user_logging_tests.py	/^def test_unexpected_datetime_column_handled_without_errors():$/;"	f
+test_unmarked_categorical_column_throws_warning	tests/user_logging_tests.py	/^def test_unmarked_categorical_column_throws_warning():$/;"	f
+test_user_input_func_classification	tests/api_coverage_tests_classifiers.py	/^def test_user_input_func_classification():$/;"	f
+test_verify_features_finds_missing_prediction_features	tests/user_logging_tests.py	/^def test_verify_features_finds_missing_prediction_features():$/;"	f
+test_verify_features_finds_missing_training_features	tests/user_logging_tests.py	/^def test_verify_features_finds_missing_training_features():$/;"	f
+test_verify_features_finds_no_missing_features_when_none_are_missing	tests/user_logging_tests.py	/^def test_verify_features_finds_no_missing_features_when_none_are_missing():$/;"	f
+tests_require	setup.py	/^    tests_require=['nose', 'coveralls']$/;"	v
+texinfo_documents	docs/source/conf.py	/^texinfo_documents = [$/;"	v
+todo_include_todos	docs/source/conf.py	/^todo_include_todos = False$/;"	v
+train	auto_ml/predictor.py	/^    def train(self, raw_training_data, user_input_func=None, optimize_final_model=None, write_gs_param_results_to_file=True, perform_feature_selection=None, verbose=True, X_test=None, y_test=None, ml_for_analytics=True, take_log_of_y=None, model_names=None, perform_feature_scaling=True, calibrate_final_model=False, _scorer=None, scoring=None, verify_features=False, training_params=None, grid_search_params=None, compare_all_models=False, cv=2, feature_learning=False, fl_data=None, optimize_feature_learning=False, train_uncertainty_model=False, uncertainty_data=None, uncertainty_delta=None, uncertainty_delta_units=None, calibrate_uncertainty=False, uncertainty_calibration_settings=None, uncertainty_calibration_data=None, uncertainty_delta_direction=None, advanced_analytics=None, analytics_config=None, prediction_intervals=None, predict_intervals=None, ensemble_config=None, trained_transformation_pipeline=None, transformed_X=None, transformed_y=None, return_transformation_pipeline=False, X_test_already_transformed=False):$/;"	m	class:Predictor
+train_basic_binary_classifier	tests/utils_testing.py	/^def train_basic_binary_classifier(df_titanic_train):$/;"	f
+train_basic_multilabel_classifier	tests/utils_testing.py	/^def train_basic_multilabel_classifier(df_twitter_train):$/;"	f
+train_basic_regressor	tests/utils_testing.py	/^def train_basic_regressor(df_boston_train):$/;"	f
+train_categorical_ensemble	auto_ml/predictor.py	/^    def train_categorical_ensemble(self, data, categorical_column, default_category=None, min_category_size=5, **kwargs):$/;"	m	class:Predictor
+train_ml_estimator	auto_ml/predictor.py	/^    def train_ml_estimator(self, estimator_names, scoring, X_df, y, feature_learning=False, prediction_interval=False):$/;"	m	class:Predictor
+train_one_categorical_model	auto_ml/predictor.py	/^        def train_one_categorical_model(category, relevant_X, relevant_y):$/;"	f	function:Predictor.train_categorical_ensemble
+training_parameters	tests/automated_tests.py	/^training_parameters = {$/;"	v
+training_parameters	tests/automated_tests_regressors.py	/^training_parameters = {$/;"	v
+transform	auto_ml/DataFrameVectorizer.py	/^    def transform(self, X, y=None):$/;"	m	class:DataFrameVectorizer
+transform	auto_ml/utils.py	/^    def transform(self, in_vals):$/;"	m	class:CustomLabelEncoder
+transform	auto_ml/utils.py	/^    def transform(self, y):$/;"	m	class:ExtendedLabelEncoder
+transform	auto_ml/utils_data_cleaning.py	/^    def transform(self, X, y=None):$/;"	m	class:BasicDataCleaning
+transform	auto_ml/utils_feature_selection.py	/^    def transform(self, X, y=None):$/;"	m	class:FeatureSelectionTransformer
+transform	auto_ml/utils_model_training.py	/^    def transform(self, X):$/;"	m	class:FinalModelATC
+transform	auto_ml/utils_scaling.py	/^    def transform(self, X, y=None):$/;"	m	class:CustomSparseScaler
+transform_only	auto_ml/predictor.py	/^    def transform_only(self, X):$/;"	m	class:Predictor
+transform_only	auto_ml/utils.py	/^    def transform_only(self, X):$/;"	m	class:ExtendedPipeline
+transform_only	auto_ml/utils_model_training.py	/^    def transform_only(self, X):$/;"	m	class:FinalModelATC
+url	setup.py	/^    url='https:\/\/github.com\/ClimbsRocks\/auto_ml',$/;"	v
+verify_features	auto_ml/utils_model_training.py	/^    def verify_features(self, X, raw_features_only=False):$/;"	m	class:FinalModelATC
+version	docs/source/conf.py	/^version = u'0.1.0'$/;"	v
+version	setup.py	/^    version=open("auto_ml\/_version.py").readlines()[-1].split()[-1].strip("\\"'"),$/;"	v
+write_gs_param_results_to_file	auto_ml/utils.py	/^def write_gs_param_results_to_file(trained_gs, most_recent_filename):$/;"	f
+write_most_recent_gs_result_to_file	auto_ml/utils.py	/^def write_most_recent_gs_result_to_file(trained_gs, most_recent_filename, timestamp):$/;"	f
+xgb_installed	auto_ml/predictor.py	/^    xgb_installed = True$/;"	v
+xgb_installed	auto_ml/predictor.py	/^xgb_installed = False$/;"	v
+xgb_installed	auto_ml/utils_models.py	/^    xgb_installed = True$/;"	v
+xgb_installed	auto_ml/utils_models.py	/^xgb_installed = False$/;"	v
