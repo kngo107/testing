@@ -1,3 +1,4 @@
+<!---
 # auto_ml
 > Automated machine learning for production and analytics
 
@@ -169,3 +170,4 @@ CI is also set up, so if you're developing on this, you can just open a PR, and 
 The tests are relatively comprehensive, though as with everything with auto_ml, I happily welcome your contributions here!
 
 [![Analytics](https://ga-beacon.appspot.com/UA-58170643-5/auto_ml/readme)](https://github.com/igrigorik/ga-beacon)
+-->
